@@ -170,8 +170,8 @@
   {
     "name": "vscode-tailwindcss",
     "publisher": "bradlc",
-    "sha256": "sha256-LysfdnHzL6wXtb/Y1OUU4kY1OpLm9sFiYtzO3vWuF2M=",
-    "version": "0.13.41"
+    "sha256": "sha256-AroTQixohzKVWjW86NLbNnwhoChXeiQhmqXKw8nCD6Q=",
+    "version": "0.13.42"
   },
   {
     "name": "rescript-vscode",

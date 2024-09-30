@@ -133,6 +133,8 @@
           program = "${
             (writeShellScript "update" ''
               set -euo pipefail
+              echo "Update nix flakes..."
+              nix flake update
               echo "Update vscode plugins..."
               (cd overlays/vscode && ./update-vscode-plugins.py)
               (cd overlays/vscode/codelldb && ./update.sh)
