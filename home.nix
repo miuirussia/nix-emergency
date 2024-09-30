@@ -11,6 +11,8 @@ in
     ./modules/nix.nix
     ./modules/nixpkgs.nix
     ./modules/vscode.nix
+    ./modules/yandex-browser.nix
+    ./modules/zsh.nix
   ];
 
   home.stateVersion = "23.05";
