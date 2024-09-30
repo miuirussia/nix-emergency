@@ -6,6 +6,11 @@ in
 {
   imports = [
     ./modules/git.nix
+    ./modules/kitty.nix
+    ./modules/neovim.nix
+    ./modules/nix.nix
+    ./modules/nixpkgs.nix
+    ./modules/vscode.nix
   ];
 
   home.stateVersion = "23.05";

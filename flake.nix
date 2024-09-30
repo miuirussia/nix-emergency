@@ -6,6 +6,10 @@
     nixpkgs-hls.url = "github:nixos/nixpkgs/91065f31dd63e99541528b90daed641201099ea7";
     nix-unstable.url = "github:NixOS/nix/da92ad7dd23b03c2ace0d0add01a9078d0fb4ebb";
 
+    nixgl = {
+      url = "github:nix-community/nixGL";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -19,6 +23,33 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    # zsh plugins
+    base16-shell = {
+      url = "github:chriskempson/base16-shell";
+      flake = false;
+    };
+    zsh-syntax-highlighting = {
+      url = "github:zsh-users/zsh-syntax-highlighting";
+      flake = false;
+    };
+    fast-syntax-highlighting = {
+      url = "github:zdharma-continuum/fast-syntax-highlighting";
+      flake = false;
+    };
+    zsh-history-substring-search = {
+      url = "github:zsh-users/zsh-history-substring-search";
+      flake = false;
+    };
+    zsh-nix-shell = {
+      url = "github:chisui/zsh-nix-shell";
+      flake = false;
+    };
+    zsh-yarn-completions = {
+      url = "github:chrisands/zsh-yarn-completions";
+      flake = false;
+    };
+
+    # flake utils
     systems.url = "github:nix-systems/default-linux";
   };
 
@@ -85,10 +116,13 @@
           {
             home.username = "kirill";
             home.homeDirectory = "/home/kirill";
+            nixGLPrefix = "${inputs.nixgl.packages.x86_64-linux.nixGLDefault}/bin/nixGL";
             nixpkgs = {
               inherit (nixpkgsConfig) config overlays;
             };
           }
+          ./modules/nixGL.nix
+
           ./home.nix
         ];
       };
