@@ -1,0 +1,182 @@
+[
+  {
+    "name": "vscode-jest",
+    "publisher": "orta",
+    "sha256": "sha256-4H/GfTBfJONQIXhm+rxH40hLhHQc7sc6dh6KqF7vHHM=",
+    "version": "6.3.0"
+  },
+  {
+    "name": "flow-for-vscode",
+    "publisher": "flowtype",
+    "sha256": "sha256-zTxx7aUaoQhkqviB8Oi0JC1JVqFg5rEudtXuMa4yPc0=",
+    "version": "2.2.1"
+  },
+  {
+    "name": "Nix",
+    "publisher": "bbenoist",
+    "sha256": "sha256-qwxqOGublQeVP2qrLF94ndX/Be9oZOn+ZMCFX1yyoH0=",
+    "version": "1.0.1"
+  },
+  {
+    "name": "toml",
+    "publisher": "be5invis",
+    "sha256": "sha256-yk7buEyQIw6aiUizAm+sgalWxUibIuP9crhyBaOjC2E=",
+    "version": "0.6.0"
+  },
+  {
+    "name": "dhall-lang",
+    "publisher": "dhall",
+    "sha256": "sha256-7vYQ3To2hIismo9IQWRWwKsu4lXZUh0Or89WDLMmQGk=",
+    "version": "0.0.4"
+  },
+  {
+    "name": "vscode-dhall-lsp-server",
+    "publisher": "dhall",
+    "sha256": "sha256-WopWzMCtiiLrx3pHNiDMZYFdjS359vu3T+6uI5A+Nv4=",
+    "version": "0.0.4"
+  },
+  {
+    "name": "haskell",
+    "publisher": "haskell",
+    "sha256": "sha256-3HbUH5+YCPqypGlsaSDwwyN/PoG9KO0YnZ1Ps7ZLQ48=",
+    "version": "2.5.3"
+  },
+  {
+    "name": "language-haskell",
+    "publisher": "justusadam",
+    "sha256": "sha256-rZXRzPmu7IYmyRWANtpJp3wp0r/RwB7eGHEJa7hBvoQ=",
+    "version": "3.6.0"
+  },
+  {
+    "name": "nix-ide",
+    "publisher": "jnoortheen",
+    "sha256": "sha256-hiyFZVsZkxpc2Kh0zi3NGwA/FUbetAS9khWxYesxT4s=",
+    "version": "0.3.5"
+  },
+  {
+    "name": "ide-purescript",
+    "publisher": "nwolverson",
+    "sha256": "sha256-oNtgZWbYFyjrHJ7ARpNW+LIY/zH/pbjBjqLlCKkkI/c=",
+    "version": "0.26.3"
+  },
+  {
+    "name": "language-purescript",
+    "publisher": "nwolverson",
+    "sha256": "sha256-2uOwCHvnlQQM8s8n7dtvIaMgpW8ROeoUraM02rncH9o=",
+    "version": "0.2.8"
+  },
+  {
+    "name": "vscode-nginx",
+    "publisher": "william-voyek",
+    "sha256": "sha256-mAmncewwAeagVqwWWrmYosMyw2AT3W0sx8jl2mCeimg=",
+    "version": "0.7.2"
+  },
+  {
+    "name": "shellcheck",
+    "publisher": "timonwong",
+    "sha256": "sha256-JSS0GY76+C5xmkQ0PNjt2Nu/uTUkfiUqmPL51r64tl0=",
+    "version": "0.37.1"
+  },
+  {
+    "name": "vscode-thunder-client",
+    "publisher": "rangav",
+    "sha256": "sha256-xcGYJzKkJRJnDxphKva4itHuPnP15W2kgxsVKIey28E=",
+    "version": "2.25.9"
+  },
+  {
+    "name": "hadolint",
+    "publisher": "exiasr",
+    "sha256": "sha256-6GO1f8SP4CE8yYl87/tm60FdGHqHsJA4c2B6UKVdpgM=",
+    "version": "1.1.2"
+  },
+  {
+    "name": "vscode-neovim",
+    "publisher": "asvetliakov",
+    "sha256": "sha256-3Nmk0MFIMFYQHrRyZ7ioFk9KfHSk0CSF7FwNaEJbsyg=",
+    "version": "1.18.12"
+  },
+  {
+    "name": "vitest-explorer",
+    "publisher": "ZixuanChen",
+    "sha256": "sha256-HBXp+1GmoTKrbh96J+HDvEo2xh8x/w2F4LnSeHZ5PXM=",
+    "version": "0.2.46"
+  },
+  {
+    "name": "vscode-postcss",
+    "publisher": "vunguyentuan",
+    "sha256": "sha256-ttvCwxk3dMwva5LmVHq4p31INTa/T91qQISEU4gYNbg=",
+    "version": "2.0.2"
+  },
+  {
+    "name": "gitblame",
+    "publisher": "waderyan",
+    "sha256": "sha256-U/SzM3U+AiN0vSsizV5Tm1heUvAJ5WkxlCL7l9GEGyo=",
+    "version": "11.0.1"
+  },
+  {
+    "name": "ayu",
+    "publisher": "teabyii",
+    "sha256": "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=",
+    "version": "1.0.5"
+  },
+  {
+    "name": "vscode-eslint",
+    "publisher": "dbaeumer",
+    "sha256": "sha256-l5VvhQPxPaQsPhXUbFW2yGJjaqnNvijn4QkXPjf1WXo=",
+    "version": "3.0.13"
+  },
+  {
+    "name": "yuck",
+    "publisher": "eww-yuck",
+    "sha256": "sha256-DITgLedaO0Ifrttu+ZXkiaVA7Ua5RXc4jXQHPYLqrcM=",
+    "version": "0.0.3"
+  },
+  {
+    "name": "todo-tree",
+    "publisher": "Gruntfuggly",
+    "sha256": "sha256-Fj9cw+VJ2jkTGUclB1TLvURhzQsaryFQs/+f2RZOLHs=",
+    "version": "0.0.226"
+  },
+  {
+    "name": "vscode-todo-highlight",
+    "publisher": "wayou",
+    "sha256": "sha256-CQVtMdt/fZcNIbH/KybJixnLqCsz5iF1U0k+GfL65Ok=",
+    "version": "1.0.5"
+  },
+  {
+    "name": "pretty-ts-errors",
+    "publisher": "yoavbls",
+    "sha256": "sha256-cmleAs7EMXT1z0o8Uq5ne2LrthUt/vhcN+iqfAy/i/8=",
+    "version": "0.6.0"
+  },
+  {
+    "name": "viml",
+    "publisher": "xadillax",
+    "sha256": "sha256-WNwTWJ3fDdIc9gsfOdtAd6Rg3xH0sbs6ONo7fKjtJuI=",
+    "version": "2.2.0"
+  },
+  {
+    "name": "vscode-pbkit",
+    "publisher": "pbkit",
+    "sha256": "sha256-OlwZUIaC9duG4DfPsvBV3iOtu0pOXv05KbySDzcwfI8=",
+    "version": "0.0.7"
+  },
+  {
+    "name": "smalise",
+    "publisher": "loyieking",
+    "sha256": "sha256-GZjurKTwqGO5Hxv6HYxHr9Sy+srZMxOsialL8B+kjV8=",
+    "version": "0.0.12"
+  },
+  {
+    "name": "vscode-tailwindcss",
+    "publisher": "bradlc",
+    "sha256": "sha256-LysfdnHzL6wXtb/Y1OUU4kY1OpLm9sFiYtzO3vWuF2M=",
+    "version": "0.13.41"
+  },
+  {
+    "name": "rescript-vscode",
+    "publisher": "chenglou92",
+    "sha256": "sha256-M4ZrknU/rzfxKK+jCUV+yma3XIT0MtnIJ/3ODP29sKA=",
+    "version": "1.59.0"
+  }
+]

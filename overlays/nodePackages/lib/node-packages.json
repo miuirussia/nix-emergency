@@ -1,0 +1,16 @@
+[
+  "diagnostic-languageserver",
+  "eslint_d",
+  "fx",
+  "intelephense",
+  "npm",
+  "pnpm",
+  "prettier",
+  "pulp",
+  "purescript",
+  "purescript-language-server",
+  "purescript-psa",
+  "spago",
+  "typescript-language-server",
+  { "yarn": "1.22.21" }
+]
