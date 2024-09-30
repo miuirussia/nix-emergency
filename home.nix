@@ -4,6 +4,10 @@ let
   home_directory = "${config.home.homeDirectory}";
 in
 {
+  imports = [
+    ./modules/git.nix
+  ];
+
   home.stateVersion = "23.05";
 
   home.packages = with pkgs; [
