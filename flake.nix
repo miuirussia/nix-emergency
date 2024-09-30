@@ -127,14 +127,18 @@
         ];
       };
 
-      apps = eachSystem (system: {
+      apps = eachSystem (system:
+
+      let
+        nix = "${(inputs.nix-unstable.packages.${system}.default)}/bin/nix --extra-experimental-features 'nix-command flakes'";
+      in {
         update = with nixpkgs.legacyPackages.${system}; {
           type = "app";
           program = "${
             (writeShellScript "update" ''
               set -euo pipefail
               echo "Update nix flakes..."
-              nix flake update
+              ${nix} flake update
               echo "Update vscode plugins..."
               (cd overlays/vscode && ./update-vscode-plugins.py)
               (cd overlays/vscode/codelldb && ./update.sh)
@@ -153,7 +157,6 @@
                 lib.makeBinPath [
                   gitMinimal
                   jq
-                  (inputs.nix-unstable.packages.${system}.default)
                   hostname
                 ]
               }
@@ -162,7 +165,7 @@
 
               1>&2 echo "Switching Home Manager configuration for: $configName"
 
-              exists="$(nix eval --json .#homeConfigurations --apply 'x: (builtins.any (n: n == "'$configName'") (builtins.attrNames x))' 2>/dev/null)"
+              exists="$(${nix} eval --json .#homeConfigurations --apply 'x: (builtins.any (n: n == "'$configName'") (builtins.attrNames x))' 2>/dev/null)"
 
               if [ "$exists" != "true" ]; then
                 1>&2 echo "No configuration found, aborting..."
@@ -170,7 +173,7 @@
               fi
 
               1>&2 echo "Building configuration..."
-              out="$(NIX_PATH="nixpkgs-overlays=/var/empty" nix build $@ --no-link --impure --json "${self}#homeConfigurations.$configName.activationPackage" | jq -r .[].outputs.out)"
+              out="$(NIX_PATH="nixpkgs-overlays=/var/empty" ${nix} build $@ --no-link --impure --json "${self}#homeConfigurations.$configName.activationPackage" | jq -r .[].outputs.out)"
               1>&2 echo "Activating configuration $out..."
               "$out"/activate
             '')
