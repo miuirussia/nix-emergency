@@ -3,8 +3,8 @@
 
   inputs = {
     nixpkgs.url = "github:miuirussia/nixpkgs?ref=nixpkgs-unstable";
-    nixpkgs-hls.url = "github:nixos/nixpkgs/91065f31dd63e99541528b90daed641201099ea7";
-    nix-unstable.url = "github:NixOS/nix/da92ad7dd23b03c2ace0d0add01a9078d0fb4ebb";
+    nixpkgs-hls.url = "github:nixos/nixpkgs?ref=91065f31dd63e99541528b90daed641201099ea7";
+    nix-unstable.url = "github:NixOS/nix?ref=b7b9acd08017a1efb1b187c2bc83c2697cd5ab79";
 
     nixgl = {
       url = "github:nix-community/nixGL";
