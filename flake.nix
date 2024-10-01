@@ -4,7 +4,6 @@
   inputs = {
     nixpkgs.url = "github:miuirussia/nixpkgs?ref=nixpkgs-unstable";
     nixpkgs-hls.url = "github:nixos/nixpkgs?ref=91065f31dd63e99541528b90daed641201099ea7";
-    nix-unstable.url = "github:NixOS/nix?ref=b7b9acd08017a1efb1b187c2bc83c2697cd5ab79";
 
     nixgl = {
       url = "github:nix-community/nixGL";
@@ -133,7 +132,7 @@
 
       let
         packages = pkgs system;
-        nix = "${packages.nixUnstable}/bin/nix --extra-experimental-features 'nix-command flakes'";
+        nix = "${packages.nixVersions.git}/bin/nix --extra-experimental-features 'nix-command flakes'";
       in {
         update = with nixpkgs.legacyPackages.${system}; {
           type = "app";

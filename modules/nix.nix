@@ -1,6 +1,6 @@
 { pkgs, ... }: {
   nix = {
-    package = pkgs.nixUnstable;
+    package = pkgs.nixVersions.git;
 
     settings = {
       show-trace = true;
