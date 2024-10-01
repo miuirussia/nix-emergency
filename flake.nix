@@ -98,15 +98,17 @@
         };
         inherit overlays;
       };
+
+      pkgs = system: import nixpkgs {
+        inherit system;
+        inherit (nixpkgsConfig) config overlays;
+      };
     in
     {
       formatter.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
 
       homeConfigurations.kirill = home-manager.lib.homeManagerConfiguration {
-        pkgs = import nixpkgs {
-          system = "x86_64-linux";
-          inherit (nixpkgsConfig) config overlays;
-        };
+        pkgs = pkgs "x86_64-linux";
 
         extraSpecialArgs = {
           inherit inputs;
@@ -130,7 +132,8 @@
       apps = eachSystem (system:
 
       let
-        nix = "${(inputs.nix-unstable.packages.${system}.default)}/bin/nix --extra-experimental-features 'nix-command flakes'";
+        packages = pkgs system;
+        nix = "${packages.nixUnstable}/bin/nix --extra-experimental-features 'nix-command flakes'";
       in {
         update = with nixpkgs.legacyPackages.${system}; {
           type = "app";
