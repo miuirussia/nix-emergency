@@ -1,6 +1,12 @@
-{
+{ config, pkgs, ... }:
+
+let
+  nixGL = import ../lib/nixGL.nix { inherit config pkgs; };
+in {
   programs.kitty = {
     enable = true;
+
+    package = nixGL pkgs.kitty;
 
     extraConfig = builtins.readFile ../configs/kitty.conf;
 
