@@ -4,7 +4,7 @@
   window = {
     menuBarVisibility = "toggle";
     # zoomLevel = 2;
-    # titleBarStyle = "custom";
+    titleBarStyle = "custom";
   };
 
   telemetry.telemetryLevel = "off";
