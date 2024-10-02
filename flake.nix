@@ -175,7 +175,9 @@
               fi
 
               1>&2 echo "Building configuration..."
-              out="$(NIX_PATH="nixpkgs-overlays=/var/empty" ${nix} build $@ --no-link --impure --json "${self}#homeConfigurations.$configName.activationPackage" | jq -r .[].outputs.out)"
+              emptyPath="$(mktemp -d)"
+              out="$(NIX_PATH="nixpkgs-overlays=$emptyPath" ${nix} build $@ --no-link --impure --json "${self}#homeConfigurations.$configName.activationPackage" | jq -r .[].outputs.out)"
+              rm -rf "$emptyPath"
               1>&2 echo "Activating configuration $out..."
               "$out"/activate
             '')
