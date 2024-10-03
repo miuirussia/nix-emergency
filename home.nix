@@ -6,7 +6,7 @@ in
 {
   imports = [
     ./modules/git.nix
-    ./modules/kitty.nix
+    # ./modules/kitty.nix
     ./modules/neovim.nix
     ./modules/nix.nix
     ./modules/nixpkgs.nix
