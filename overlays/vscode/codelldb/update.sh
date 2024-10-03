@@ -1,5 +1,6 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p coreutils curl jq nixUnstable
+#! nix-shell -i bash -p coreutils curl jq nixVersions.git
+set -euo pipefail
 
 cd "$(pwd)/$(dirname "${BASH_SOURCE}")" || exit
 version=$(curl -L "https://api.github.com/repos/vadimcn/vscode-lldb/tags" | jq -r ".[0].name")
@@ -9,7 +10,7 @@ then
   exit 1
 fi
 
-url="https://github.com/vadimcn/vscode-lldb/releases/download/$version/codelldb-x86_64-linux.vsix"
+url="https://github.com/vadimcn/vscode-lldb/releases/download/$version/codelldb-linux-x64.vsix"
 sha256=$(nix-prefetch-url $url)
 
 echo -n "$version" | tee version

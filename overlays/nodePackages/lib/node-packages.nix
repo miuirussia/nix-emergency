@@ -2821,13 +2821,13 @@ let
         sha512 = "OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==";
       };
     };
-    "jiti-2.0.0" = {
+    "jiti-2.1.1" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.0.0";
+      version = "2.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.0.0.tgz";
-        sha512 = "CJ7e7Abb779OTRv3lomfp7Mns/Sy1+U4pcAx5VbjxCZD5ZM/VJaXPpPjNKjtSvWQy/H86E49REXR34dl1JEz9w==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.1.1.tgz";
+        sha512 = "1BRk+NppnvjWLfEqPQtDc3JTs2eiXY9cKBM+VOk5WO+uwWHIuLeWEo3Y1LTqjguKiK9KcLDYA3IdP7gWqcbRig==";
       };
     };
     "js-cookie-3.0.5" = {
@@ -5469,10 +5469,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "14.0.4";
+    version = "14.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.0.4.tgz";
-      sha512 = "VZuLiR03gKOCbXptTSrjfhmL4GBfGswyq2gJWUSDqMSc37XR2ryuKUtnLe1Y3+cphI7Rn7S9sHgXAFYDno3RiQ==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.1.0.tgz";
+      sha512 = "ifA2y4COWi1qvMnwLSdlgXGYkA7MrDNNKwid3NVvYB/RXwAcswyXCSQjWwz99Il3x6AQVNYjGyBM85WS2R9W2Q==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -5541,7 +5541,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-2.0.0"
+      sources."jiti-2.1.1"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
@@ -5959,10 +5959,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "9.11.0";
+    version = "9.12.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-9.11.0.tgz";
-      sha512 = "CiA/+u1aP2MkLNBkyPtYkjZsED4ygHkxj3gGLyTqjJ1QvGpHqjVnyr79gk0XDnj6J0XtHxaxMuFkNhRrdojxmw==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-9.12.0.tgz";
+      sha512 = "Sr9yUITXvLr71yi/x77mHy95H5d/2HVCs1edyyNQTRcNRjN5ReTGZIXNEtWIoMDlcO2cR358zdhQfPBfP5Lqyg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
