@@ -157,9 +157,10 @@
               set -euo pipefail
               export PATH=${
                 lib.makeBinPath [
+                  coreutils
                   gitMinimal
-                  jq
                   hostname
+                  jq
                 ]
               }
               export NIXPKGS_ALLOW_INSECURE=1
