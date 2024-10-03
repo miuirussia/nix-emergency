@@ -11,6 +11,7 @@ in
     ./modules/nix.nix
     ./modules/nixpkgs.nix
     ./modules/vscode.nix
+    ./modules/wezterm.nix
     ./modules/yandex-browser.nix
     ./modules/zsh.nix
   ];

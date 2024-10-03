@@ -1,5 +1,5 @@
 { inputs, ... }: {
-  home.file.".config/nixpkgs/overlays.nix".text = ''
+  xdg.configFile."nixpkgs/overlays.nix".text = ''
    let
       configuration = import ${inputs.self};
     in
