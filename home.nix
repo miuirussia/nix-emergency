@@ -24,6 +24,8 @@ in
     nodePackages.yarn
     nodejs-slim
     tree
+
+    ungoogled-chromium
   ];
 
   home.file = { };
