@@ -2,8 +2,8 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "sha256-4H/GfTBfJONQIXhm+rxH40hLhHQc7sc6dh6KqF7vHHM=",
-    "version": "6.3.0"
+    "sha256": "sha256-oWY+AdHRYVou1UrYbi1jCROwc1isTU91YiL34LV9EZQ=",
+    "version": "6.3.1"
   },
   {
     "name": "flow-for-vscode",
@@ -56,8 +56,8 @@
   {
     "name": "ide-purescript",
     "publisher": "nwolverson",
-    "sha256": "sha256-oNtgZWbYFyjrHJ7ARpNW+LIY/zH/pbjBjqLlCKkkI/c=",
-    "version": "0.26.3"
+    "sha256": "sha256-eiVVlIoCMwhrt1AIb20FQZs+HOL7/fm8/Dp9B7YUq/A=",
+    "version": "0.26.5"
   },
   {
     "name": "language-purescript",
@@ -80,8 +80,8 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "sha256-Q9Yqy3FbxKf05blbVPlapiQPIBzk/IqiGyRJ10GbHVQ=",
-    "version": "2.27.0"
+    "sha256": "sha256-Hqz/gQSx8tt7P8o0BUTzuKErRaph6ykvCGS7jTCAltc=",
+    "version": "2.28.5"
   },
   {
     "name": "hadolint",
@@ -92,8 +92,8 @@
   {
     "name": "vscode-neovim",
     "publisher": "asvetliakov",
-    "sha256": "sha256-3Nmk0MFIMFYQHrRyZ7ioFk9KfHSk0CSF7FwNaEJbsyg=",
-    "version": "1.18.12"
+    "sha256": "sha256-FFgleWhzFaAE0UdKQ6lZsszBtJ46UZ3bfx1V3SopDNc=",
+    "version": "1.18.13"
   },
   {
     "name": "vitest-explorer",
@@ -110,8 +110,8 @@
   {
     "name": "gitblame",
     "publisher": "waderyan",
-    "sha256": "sha256-U/SzM3U+AiN0vSsizV5Tm1heUvAJ5WkxlCL7l9GEGyo=",
-    "version": "11.0.1"
+    "sha256": "sha256-NCA6oV0n6fJpyssmh5sx0VDE1yuiY6xm1lWjqm8BpgM=",
+    "version": "11.1.1"
   },
   {
     "name": "ayu",
@@ -158,8 +158,8 @@
   {
     "name": "vscode-pbkit",
     "publisher": "pbkit",
-    "sha256": "sha256-OlwZUIaC9duG4DfPsvBV3iOtu0pOXv05KbySDzcwfI8=",
-    "version": "0.0.7"
+    "sha256": "sha256-xM6yKLx9rntZZO0VMGrpyvIFhNAV5pFWIFrUqKglZyI=",
+    "version": "0.0.8"
   },
   {
     "name": "smalise",
@@ -170,13 +170,25 @@
   {
     "name": "vscode-tailwindcss",
     "publisher": "bradlc",
-    "sha256": "sha256-AroTQixohzKVWjW86NLbNnwhoChXeiQhmqXKw8nCD6Q=",
-    "version": "0.13.42"
+    "sha256": "sha256-DSSb9kMxupELuhzsJuLS7khvD+b2M1KKfnq4R7/Dyuw=",
+    "version": "0.13.44"
   },
   {
     "name": "rescript-vscode",
     "publisher": "chenglou92",
-    "sha256": "sha256-M4ZrknU/rzfxKK+jCUV+yma3XIT0MtnIJ/3ODP29sKA=",
-    "version": "1.59.0"
+    "sha256": "sha256-c+Ytrvmg4ct4duq4j9OLMpcfGtUMvDxtOAQIo9OVUDE=",
+    "version": "1.59.1"
+  },
+  {
+    "name": "svelte-vscode",
+    "publisher": "svelte",
+    "sha256": "sha256-ozD9k/zfklwBJtc1WdC52hgJckxBgVRmcZOwSYboACM=",
+    "version": "109.1.0"
+  },
+  {
+    "name": "prettier-vscode",
+    "publisher": "esbenp",
+    "sha256": "sha256-pNjkJhof19cuK0PsXJ/Q/Zb2H7eoIkfXJMLZJ4lDn7k=",
+    "version": "11.0.0"
   }
 ]

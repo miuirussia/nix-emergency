@@ -153,7 +153,7 @@
   };
 
   rust-analyzer = {
-    server.path = "${pkgs.rust-analyzer-nightly}/bin/rust-analyzer";
+    server.path = "${pkgs.rust-analyzer}/bin/rust-analyzer";
   };
 
   vscode-neovim = {

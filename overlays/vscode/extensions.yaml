@@ -58,3 +58,7 @@
   publisher: bradlc
 - name: rescript-vscode
   publisher: chenglou92
+- name: svelte-vscode
+  publisher: svelte
+- name: prettier-vscode
+  publisher: esbenp
