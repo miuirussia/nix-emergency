@@ -25,6 +25,7 @@ in
     nodejs-slim
     tree
 
+    radicle-node
     ungoogled-chromium
   ];
 
