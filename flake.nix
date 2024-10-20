@@ -105,7 +105,7 @@
     in
     {
       formatter.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.nixfmt-rfc-style;
-
+      
       homeConfigurations.kirill = home-manager.lib.homeManagerConfiguration {
         pkgs = pkgs "x86_64-linux";
 
@@ -181,6 +181,32 @@
               rm -rf "$emptyPath"
               1>&2 echo "Activating configuration $out..."
               "$out"/activate
+            '')
+          }";
+        };
+
+        cache = with nixpkgs.legacyPackages.${system}; {
+          type = "app";
+          program = "${
+            (writeShellScript "cache" ''
+              set -euo pipefail
+              export PATH=${
+                lib.makeBinPath [
+                  coreutils
+                  gitMinimal
+                  hostname
+                  jq
+                  cachix
+                ]
+              }
+
+              export NIXPKGS_ALLOW_INSECURE=1
+              emptyPath="$(mktemp -d)"
+              ${nix} eval --json .#homeConfigurations --apply 'x: (builtins.attrNames x)' 2>/dev/null | jq -c -r '.[]' | while read name; do
+                echo "Caching configuration $name..."
+                NIX_PATH="nixpkgs-overlays=$emptyPath" ${nix} build $@ --no-link --impure --json "${self}#homeConfigurations.$name.activationPackage" | jq -r '.[].outputs | to_entries[].value' | cachix push kdevlab
+              done
+              rm -rf "$emptyPath"
             '')
           }";
         };
