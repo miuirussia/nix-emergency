@@ -10,6 +10,7 @@ in
     ./modules/neovim.nix
     ./modules/nix.nix
     ./modules/nixpkgs.nix
+    ./modules/ssh.nix
     ./modules/vscode.nix
     ./modules/wezterm.nix
     ./modules/yandex-browser.nix
