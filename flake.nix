@@ -6,7 +6,7 @@
     nixpkgs-hls.url = "github:nixos/nixpkgs?ref=91065f31dd63e99541528b90daed641201099ea7";
 
     nixgl = {
-      url = "github:nix-community/nixGL";
+      url = "github:miuirussia/nixGL";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     home-manager = {
