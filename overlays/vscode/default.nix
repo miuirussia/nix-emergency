@@ -6,6 +6,7 @@ rec {
     [
       prev.vscode-extensions.rust-lang.rust-analyzer
       (import ./codelldb { pkgs = prev; })
+      (import ./continue { pkgs = prev; })
     ]
     ++ prev.vscode-utils.extensionsFromVscodeMarketplace (fromJSON (readFile ./extensions.json));
 

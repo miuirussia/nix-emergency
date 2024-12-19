@@ -2,14 +2,14 @@
   {
     "name": "vscode-jest",
     "publisher": "orta",
-    "sha256": "sha256-oWY+AdHRYVou1UrYbi1jCROwc1isTU91YiL34LV9EZQ=",
-    "version": "6.3.1"
+    "sha256": "sha256-RB+V7MzoEfEx8ANwDbmsCOQltKp2+e6/eBgIzLx4Uis=",
+    "version": "6.4.0"
   },
   {
     "name": "flow-for-vscode",
     "publisher": "flowtype",
-    "sha256": "sha256-zTxx7aUaoQhkqviB8Oi0JC1JVqFg5rEudtXuMa4yPc0=",
-    "version": "2.2.1"
+    "sha256": "sha256-B3YaDSFgF3hsAo/lZtReeiVJHymnqWhC5eLqy0/nLgg=",
+    "version": "3.0.0"
   },
   {
     "name": "Nix",
@@ -80,8 +80,8 @@
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "sha256-Hqz/gQSx8tt7P8o0BUTzuKErRaph6ykvCGS7jTCAltc=",
-    "version": "2.28.5"
+    "sha256": "sha256-Rn2nvGw9vxD+Q3I1f6oBYhG/fJiiyCnZcXpliykCxVo=",
+    "version": "2.33.1"
   },
   {
     "name": "hadolint",
@@ -92,8 +92,8 @@
   {
     "name": "vscode-neovim",
     "publisher": "asvetliakov",
-    "sha256": "sha256-FFgleWhzFaAE0UdKQ6lZsszBtJ46UZ3bfx1V3SopDNc=",
-    "version": "1.18.13"
+    "sha256": "sha256-Db49bLX0QLr7fS7ZUyeWOustN63LpaJ6IBTKMqAz8uc=",
+    "version": "1.18.14"
   },
   {
     "name": "vitest-explorer",
@@ -146,8 +146,8 @@
   {
     "name": "pretty-ts-errors",
     "publisher": "yoavbls",
-    "sha256": "sha256-cmleAs7EMXT1z0o8Uq5ne2LrthUt/vhcN+iqfAy/i/8=",
-    "version": "0.6.0"
+    "sha256": "sha256-LvX21nEjgayNd9q+uXkahmdYwzfWBZOhQaF+clFUUF4=",
+    "version": "0.6.1"
   },
   {
     "name": "viml",
@@ -170,20 +170,20 @@
   {
     "name": "vscode-tailwindcss",
     "publisher": "bradlc",
-    "sha256": "sha256-DSSb9kMxupELuhzsJuLS7khvD+b2M1KKfnq4R7/Dyuw=",
-    "version": "0.13.44"
+    "sha256": "sha256-F7HekdmIpMQOz1RJ9+pIwLgHT4tOYg8ugMEypOsa15A=",
+    "version": "0.13.62"
   },
   {
     "name": "rescript-vscode",
     "publisher": "chenglou92",
-    "sha256": "sha256-c+Ytrvmg4ct4duq4j9OLMpcfGtUMvDxtOAQIo9OVUDE=",
-    "version": "1.59.1"
+    "sha256": "sha256-IBJ3nUSc4ivwxjT/9MNG41MK1+rudLuUxwaersYdvbo=",
+    "version": "1.59.8"
   },
   {
     "name": "svelte-vscode",
     "publisher": "svelte",
-    "sha256": "sha256-ozD9k/zfklwBJtc1WdC52hgJckxBgVRmcZOwSYboACM=",
-    "version": "109.1.0"
+    "sha256": "sha256-3FxExRNP+uj3WdQwljG9uXyyeT/796GwXWAFb2Q9Ew0=",
+    "version": "109.4.0"
   },
   {
     "name": "prettier-vscode",
