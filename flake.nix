@@ -164,6 +164,7 @@
                 ]
               }
               export NIXPKGS_ALLOW_INSECURE=1
+              export NIXPKGS_ALLOW_UNFREE=1
               configName="$USER"
 
               1>&2 echo "Switching Home Manager configuration for: $configName"
@@ -201,6 +202,7 @@
               }
 
               export NIXPKGS_ALLOW_INSECURE=1
+              export NIXPKGS_ALLOW_UNFREE=1
               emptyPath="$(mktemp -d)"
               ${nix} eval --json .#homeConfigurations --apply 'x: (builtins.attrNames x)' 2>/dev/null | jq -c -r '.[]' | while read name; do
                 echo "Caching configuration $name..."
