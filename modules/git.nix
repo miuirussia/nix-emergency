@@ -49,6 +49,7 @@
       http.sslverify = true;
       hub.protocol = "${pkgs.openssh}/bin/ssh";
       merge.tool = "vim -d";
+      merge.ff = "only";
       mergetool.keepBackup = true;
       pull.rebase = true;
       push.default = "current";
