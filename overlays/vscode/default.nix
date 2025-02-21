@@ -4,7 +4,7 @@ rec {
   vscode-mp-extensions =
     with builtins;
     [
-      prev.vscode-extensions.rust-lang.rust-analyzer
+      # prev.vscode-extensions.rust-lang.rust-analyzer
       (import ./codelldb { pkgs = prev; })
       (import ./continue { pkgs = prev; })
     ]
