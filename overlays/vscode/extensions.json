@@ -50,8 +50,8 @@
   {
     "name": "nix-ide",
     "publisher": "jnoortheen",
-    "sha256": "sha256-UjdEST+fMkMq8OGbWoInk+7B3UlApRoaps+xAQ9uPdU=",
-    "version": "0.4.10"
+    "sha256": "sha256-3pXypgAwg/iEBUqPeNsyoX2oYqlKMVdemEhmhy1PuGU=",
+    "version": "0.4.12"
   },
   {
     "name": "ide-purescript",
@@ -74,14 +74,14 @@
   {
     "name": "shellcheck",
     "publisher": "timonwong",
-    "sha256": "sha256-xfVKI+xxA/8YUcCWpskxZLbBLPsYCF46iKJkrV2zODs=",
-    "version": "0.37.6"
+    "sha256": "sha256-i8cVY8EcKSxnmWmRWDiARF79pOEcYMc+y+7i4d8EDTo=",
+    "version": "0.37.7"
   },
   {
     "name": "vscode-thunder-client",
     "publisher": "rangav",
-    "sha256": "sha256-Q+jI4dJ4RrZg/4A7CKmaKMGFGj6VOi+9uCbW5dflCfg=",
-    "version": "2.33.2"
+    "sha256": "sha256-dz7wf6GecpRBQCuZXfwRDGIEbVYCaptWi7nxKUveFTI=",
+    "version": "2.34.1"
   },
   {
     "name": "hadolint",
@@ -92,8 +92,8 @@
   {
     "name": "vscode-neovim",
     "publisher": "asvetliakov",
-    "sha256": "sha256-6LTjhUUP9KA43DoRT61UoSobtdHCD5QMvSmRhN7e6LA=",
-    "version": "1.18.15"
+    "sha256": "sha256-lMiLfHYeu53fk+xVH18G4Z1AmVlnugMXwuvbFLjU1T8=",
+    "version": "1.18.17"
   },
   {
     "name": "vitest-explorer",
@@ -110,8 +110,8 @@
   {
     "name": "gitblame",
     "publisher": "waderyan",
-    "sha256": "sha256-NCA6oV0n6fJpyssmh5sx0VDE1yuiY6xm1lWjqm8BpgM=",
-    "version": "11.1.1"
+    "sha256": "sha256-TlvMyFmtJQtpsjbdh3bPiRaMHro0M7gKOgtGc2bQLN4=",
+    "version": "11.1.2"
   },
   {
     "name": "ayu",
@@ -170,14 +170,14 @@
   {
     "name": "vscode-tailwindcss",
     "publisher": "bradlc",
-    "sha256": "sha256-eOdltfRP4npYfQKDhGgP2gtc7jrqOv6igWP6DLfJGRw=",
-    "version": "0.14.1"
+    "sha256": "sha256-1tfgzzk1WO6Wr/xmYMis+gu5uPOpOgutSgnGZU1ijGc=",
+    "version": "0.14.6"
   },
   {
     "name": "rescript-vscode",
     "publisher": "chenglou92",
-    "sha256": "sha256-xt+2Vv313UGO3pWL5Kdp557Xlf9XyDKf0wtK/fTYxrM=",
-    "version": "1.61.5"
+    "sha256": "sha256-SeG//5eDFv37N6v8r91eQp0Uz8NoyC7FnEXeaDicipo=",
+    "version": "1.61.7"
   },
   {
     "name": "svelte-vscode",
